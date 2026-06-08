@@ -35,6 +35,11 @@ export function SiteFooter() {
                 </a>
               </li>
               <li>
+                <a href="#larry" className="transition-colors hover:text-foreground">
+                  Meet Larry
+                </a>
+              </li>
+              <li>
                 <a href="#visit" className="transition-colors hover:text-foreground">
                   Visit Us
                 </a>
