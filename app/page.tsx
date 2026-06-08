@@ -5,7 +5,6 @@ import { FridayNights } from '@/components/friday-nights'
 import { Events } from '@/components/events'
 import { Timeline } from '@/components/timeline'
 import { MeetLarry } from '@/components/meet-larry'
-import { Community } from '@/components/community'
 import { Visit } from '@/components/visit'
 import { SiteFooter } from '@/components/site-footer'
 
@@ -52,7 +51,6 @@ export default function Page() {
         <Events />
         <Timeline />
         <MeetLarry />
-        <Community />
         <Visit />
       </main>
       <SiteFooter />

@@ -40,11 +40,6 @@ export function SiteFooter() {
                 </a>
               </li>
               <li>
-                <a href="#community" className="transition-colors hover:text-foreground">
-                  Community
-                </a>
-              </li>
-              <li>
                 <a href="#visit" className="transition-colors hover:text-foreground">
                   Visit Us
                 </a>
