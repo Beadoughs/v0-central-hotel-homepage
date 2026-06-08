@@ -25,11 +25,16 @@ export function Visit() {
               <InfoRow icon={MapPin} label="Address">
                 131 Main Street, Zeehan TAS 7469
               </InfoRow>
-              <InfoRow icon={Clock} label="Open">
-                Wed–Sun from 3pm · Friday nights till late
+              <InfoRow icon={Clock} label="Opening Hours">
+                Fridays 5–10pm
               </InfoRow>
-              <InfoRow icon={Phone} label="Call the bar">
-                (03) 6471 0000
+              <InfoRow icon={Phone} label="Phone">
+                <a
+                  href="tel:+61419416616"
+                  className="transition-colors hover:text-gold"
+                >
+                  0419 416 616
+                </a>
               </InfoRow>
             </div>
 
@@ -69,9 +74,10 @@ export function Visit() {
                       Heritage accommodation
                     </h3>
                     <p className="mt-2 text-pretty leading-relaxed text-parchment-foreground/85">
-                      Stay the night in the old pub. Heritage rooms are on the
-                      way — check back soon for accommodation at the Central
-                      Hotel Zeehan.
+                      Accommodation is not currently available, but the upstairs
+                      rooms are part of the Central Hotel&apos;s future.
+                      Restoration work is underway, with plans to reopen the
+                      historic rooms once renovations are complete.
                     </p>
                   </div>
                 </div>

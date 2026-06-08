@@ -4,6 +4,7 @@ import { Story } from '@/components/story'
 import { FridayNights } from '@/components/friday-nights'
 import { Events } from '@/components/events'
 import { Timeline } from '@/components/timeline'
+import { MeetLarry } from '@/components/meet-larry'
 import { Visit } from '@/components/visit'
 import { SiteFooter } from '@/components/site-footer'
 
@@ -15,7 +16,7 @@ const jsonLd = {
     'Heritage-listed historic pub and hotel in Zeehan on the West Coast of Tasmania. Friday night live music, hearty counter meals and genuine old-pub charm.',
   image: 'https://centralhotelzeehan.com.au/images/hero-pub-exterior.png',
   url: 'https://centralhotelzeehan.com.au',
-  telephone: '+61364710000',
+  telephone: '+61419416616',
   foundingDate: '1898',
   priceRange: '$$',
   address: {
@@ -49,6 +50,7 @@ export default function Page() {
         <FridayNights />
         <Events />
         <Timeline />
+        <MeetLarry />
         <Visit />
       </main>
       <SiteFooter />

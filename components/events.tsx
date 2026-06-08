@@ -2,9 +2,9 @@ import { Reveal } from './reveal'
 
 const events = [
   {
-    tag: 'Live Music',
+    tag: 'Friday Nights',
     title: 'Friday Night Sessions',
-    text: 'Live acoustic and band nights every Friday in the front bar.',
+    text: 'Open Fridays 5–10pm. Pull up for the best beer on tap on the West Coast, plus a full range of drinks behind the bar.',
     img: '/images/friday-live-music.png',
   },
   {
@@ -16,13 +16,13 @@ const events = [
   {
     tag: 'On The Road',
     title: 'Riders & Road Trippers',
-    text: 'A favourite West Coast Tasmania attraction for bike riders and tourers passing through.',
+    text: 'A favourite West Coast Tasmania stop for bike riders and travellers passing through Zeehan.',
     img: '/images/bikers-tourists.png',
   },
   {
-    tag: 'Theme Nights',
-    title: 'Trivia & Theme Nights',
-    text: 'Keep an eye out for trivia, theme nights and one-off community events.',
+    tag: 'In the Pub',
+    title: 'Play Pool or Darts',
+    text: 'We have a billiard table and dart board set up and ready — perfect for a friendly game or a proper competition.',
     img: '/images/counter-meal.png',
   },
 ]
@@ -43,8 +43,8 @@ export function Events() {
               Things to do in Zeehan, all under one roof
             </h2>
             <p className="max-w-sm text-pretty leading-relaxed text-muted-foreground">
-              From live music to private functions, there&apos;s always a reason
-              to pull up a stool at the Central.
+              Cold beer, private functions, pool, darts and a warm West Coast
+              welcome — all at the Central.
             </p>
           </div>
         </Reveal>
@@ -76,6 +76,17 @@ export function Events() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={200}>
+          <div className="mt-10 text-center">
+            <a
+              href="#visit"
+              className="inline-flex rounded-full bg-gold px-7 py-3.5 text-sm font-semibold text-gold-foreground transition-transform hover:scale-105"
+            >
+              Book An Event
+            </a>
+          </div>
+        </Reveal>
       </div>
     </section>
   )
