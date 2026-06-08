@@ -69,9 +69,10 @@ export function Visit() {
                       Heritage accommodation
                     </h3>
                     <p className="mt-2 text-pretty leading-relaxed text-parchment-foreground/85">
-                      Stay the night in the old pub. Heritage rooms are on the
-                      way — check back soon for accommodation at the Central
-                      Hotel Zeehan.
+                      Accommodation is not currently available, but the upstairs
+                      rooms are part of the Central Hotel&apos;s future.
+                      Restoration work is underway, with plans to reopen the
+                      historic rooms once renovations are complete.
                     </p>
                   </div>
                 </div>
