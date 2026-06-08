@@ -8,8 +8,8 @@ export function Hero() {
       className="grain relative flex min-h-[100svh] items-end overflow-hidden"
     >
       <img
-        src="/images/hero-pub-exterior.png"
-        alt="The Central Hotel Zeehan, a heritage-listed historic pub on the West Coast of Tasmania, glowing warmly at dusk"
+        src="/images/central-hotel-exterior.jpg"
+        alt="The Central Hotel Zeehan, a heritage-listed historic pub on the West Coast of Tasmania, with its full two-storey facade and verandah in bright daylight"
         className="absolute inset-0 size-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/30" />
