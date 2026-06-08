@@ -43,12 +43,6 @@ export function MeetLarry() {
                 rooms for future accommodation.
               </p>
             </div>
-            <a
-              href="#story"
-              className="mt-8 inline-flex rounded-full bg-gold px-7 py-3.5 text-sm font-semibold text-gold-foreground transition-transform hover:scale-105"
-            >
-              Read Larry&apos;s Story
-            </a>
           </Reveal>
         </div>
       </div>

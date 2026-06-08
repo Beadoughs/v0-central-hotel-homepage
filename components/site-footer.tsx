@@ -35,11 +35,6 @@ export function SiteFooter() {
                 </a>
               </li>
               <li>
-                <a href="#larry" className="transition-colors hover:text-foreground">
-                  Meet Larry
-                </a>
-              </li>
-              <li>
                 <a href="#visit" className="transition-colors hover:text-foreground">
                   Visit Us
                 </a>
@@ -54,7 +49,15 @@ export function SiteFooter() {
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li>131 Main Street</li>
               <li>Zeehan TAS 7469</li>
-              <li>(03) 6471 0000</li>
+              <li>Open Fridays 5–10pm</li>
+              <li>
+                <a
+                  href="tel:+61419416616"
+                  className="transition-colors hover:text-foreground"
+                >
+                  0419 416 616
+                </a>
+              </li>
             </ul>
           </div>
         </div>
